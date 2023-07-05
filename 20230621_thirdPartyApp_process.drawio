@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T06:58:05.906Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="7KdMICKHaHRspsh9u_v2" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-05T07:34:59.183Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="ogQuylfTgCZwsGrG4bM_" version="21.5.2" type="github">
   <diagram name="Seite-1" id="GQNFSpxZyi9aB66WynnB">
-    <mxGraphModel dx="3110" dy="2405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3937" dy="2405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,6 +117,75 @@
         </mxCell>
         <mxCell id="FiCaPtrMLuWlpLasM4BH-44" value="ELN-Backend" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="-50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9-m3vecJ0nasKB-fiuo-1" value="ELN-Frontend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-268" y="-810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9-m3vecJ0nasKB-fiuo-2" value="ELN-Backend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="27" y="-810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9-m3vecJ0nasKB-fiuo-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-833" y="-120" as="sourcePoint" />
+            <mxPoint x="827" y="-120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9-m3vecJ0nasKB-fiuo-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE599;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-295" y="-629" width="170" height="249" as="geometry" />
+        </mxCell>
+        <mxCell id="L9-m3vecJ0nasKB-fiuo-6" value="&lt;div&gt;Admin erstellt/updated/deleted 3PA&lt;/div&gt;&lt;div&gt;[Name, IP-address]&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="-609" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9-m3vecJ0nasKB-fiuo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="L9-m3vecJ0nasKB-fiuo-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-208" y="-610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9-m3vecJ0nasKB-fiuo-8" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;fillColor=#1F1F1F;" vertex="1" parent="1">
+          <mxGeometry x="-223" y="-730" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L9-m3vecJ0nasKB-fiuo-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE599;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="3" y="-480" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L9-m3vecJ0nasKB-fiuo-11" value="&lt;div&gt;&lt;b&gt;checks&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- is &lt;i&gt;Name &lt;/i&gt;unique&lt;/div&gt;&lt;div&gt;- Starts IP address with http(s)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="-460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9-m3vecJ0nasKB-fiuo-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L9-m3vecJ0nasKB-fiuo-6" target="L9-m3vecJ0nasKB-fiuo-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="-120" as="sourcePoint" />
+            <mxPoint x="260" y="-170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9-m3vecJ0nasKB-fiuo-19" value="erstellen/update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L9-m3vecJ0nasKB-fiuo-13">
+          <mxGeometry x="-0.0337" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9-m3vecJ0nasKB-fiuo-14" value="If user is admin entry is created/updated" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="27" y="-460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9-m3vecJ0nasKB-fiuo-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="L9-m3vecJ0nasKB-fiuo-11" target="L9-m3vecJ0nasKB-fiuo-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="-200" as="sourcePoint" />
+            <mxPoint x="-200" y="-230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9-m3vecJ0nasKB-fiuo-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE599;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry y="-629" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L9-m3vecJ0nasKB-fiuo-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-148" y="-579.5" as="sourcePoint" />
+            <mxPoint x="29" y="-579.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9-m3vecJ0nasKB-fiuo-21" value="deleted" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L9-m3vecJ0nasKB-fiuo-20">
+          <mxGeometry x="-0.0169" y="-4" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9-m3vecJ0nasKB-fiuo-22" value="If user is admin entry is deleted" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-609" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
